@@ -358,3 +358,41 @@ a:hover {
     font-size: 1.4rem;
   }
 }
+section {
+  /* ... */
+  background: rgba(10, 10, 10, 0.85);
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+}
+h2 {
+  /* ... */
+  color: #ff0066;
+  border-left: 4px solid #00ffcc;
+}
+#contact ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 1rem;
+}
+#contact ul li {
+  background: rgba(10, 20, 60, 0.8);
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.6rem;
+  box-shadow: inset 0 0 10px #ff0066;
+  border-left: 3px solid #00ffcc;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+#contact ul li a {
+  color: #00ffcc;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+#contact ul li a:hover {
+  color: #ff0066;
+  text-decoration: underline;
+}
+
