@@ -31,9 +31,9 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Restaurant",
-  "name": "BASE1 Shinjuku",
-  "url": "https://prodarts.github.io/shop_base_shinjyuku/",
+  "@type": "BarOrPub",
+  "name": "Darts & Beer Pong Bar BASE1 Shinjuku",
+  "image": "https://prodarts.github.io/shop_base_shinjyuku/img/shop_interior.jpg",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "1-6-3 Kabukicho, Tokai-en Bldg. 9F",
@@ -42,102 +42,80 @@
     "postalCode": "160-0021",
     "addressCountry": "JP"
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 35.6942116,
+    "longitude": 139.7038937
+  },
   "telephone": "03-6380-2140",
+  "openingHours": "Mo-Su 20:00-06:00",
+  "url": "https://prodarts.github.io/shop_base_shinjyuku/",
   "priceRange": "¥¥",
-  "servesCuisine": "Bar, Amusement",
-  "image": "https://prodarts.github.io/shop_base_shinjyuku/img/shop_interior.jpg",
-  "hasMenu": {
-    "@type": "Menu",
-    "name": "Food & Drink Menu",
-    "url": "https://prodarts.github.io/shop_base_shinjyuku/BASE1menu.pdf"
-  }
+  "servesCuisine": ["Bar", "Amusement", "Light meals", "Pizza", "Snacks"],
+  "smokingAllowed": true,
+  "sameAs": [
+    "https://www.instagram.com/base.shinjyuku922/reels/",
+    "https://x.com/base_shinjuku"
+  ],
+  "description": "BASE1 Shinjuku is an amusement bar in Kabukicho offering darts, beer pong, karaoke, and private party space. The bar welcomes women’s groups and solo guests, and all seats are smoking allowed. Open late, with unlimited darts and karaoke available. Located just a few minutes from Shinjuku Station."
 }
 </script>
 
-
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "BarOrPub",
-    "name": "Darts & Beer Pong Bar BASE1 Shinjuku",
-    "image": "https://prodarts.github.io/shop_base_shinjyuku/img/shop_interior.jpg",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1-6-3 Kabukicho, Tokai-en Bldg. 9F",
-      "addressLocality": "Shinjuku-ku",
-      "addressRegion": "Tokyo",
-      "postalCode": "160-0021",
-      "addressCountry": "JP"
-    },
-    "telephone": "03-6380-2140",
-    "openingHours": "Mo-Su 20:00-06:00",
-    "url": "https://prodarts.github.io/shop_base_shinjyuku/",
-    "priceRange": "¥¥",
-    "servesCuisine": "Bar, Amusement",
-    "smokingAllowed": true,
-    "sameAs": [
-      "https://www.instagram.com/base.shinjyuku922/reels/",
-      "https://x.com/base_shinjuku"
-    ],
-    "description": "Amusement bar in Kabukicho, Shinjuku offering darts, beer pong, karaoke & private parties. Unlimited darts, unlimited karaoke, beer pong setup."
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Do you offer an unlimited darts plan?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, <strong>¥1,100 for 2 hours (excluding Fridays, Saturdays, and days before holidays)</strong> unlimited darts is available. You can also enjoy karaoke, beer pong & board games."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is there a cover charge?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, there is a <strong>¥330 cover charge per person (including tax)</strong>. This may change depending on circumstances, so please inquire before visiting."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can I come by myself?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Of course! Solo guests are always welcome. You’ll find a friendly, homey atmosphere where you can chat with staff and regulars."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is smoking allowed inside?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, smoking (both cigarettes and e-cigarettes) is allowed throughout the venue. Underage guests are not permitted."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What other games do you offer besides darts?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "In addition to DARTSLIVE2 and PHOENIX for darts, we have <strong>beer pong, karaoke, playing cards, UNO and other board games</strong>."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is it possible to book a private party?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, <strong>We warmly welcome private bookings for various occasions such as year-end and New Year parties, farewell and welcome parties, and wedding after-parties! Our venue can accommodate private events for up to about 50 people.</strong>For details on pricing and plans, please feel free to contact us."
-        }
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer an unlimited darts plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, ¥1,100 for 2 hours (excluding Fridays, Saturdays, and days before holidays) unlimited darts is available. You can also enjoy karaoke, beer pong & board games."
       }
-    ]
-  }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a cover charge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, there is a ¥330 cover charge per person (including tax). This may change depending on circumstances, so please inquire before visiting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I come by myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Of course! Solo guests are always welcome. You’ll find a friendly, homey atmosphere where you can chat with staff and regulars."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is smoking allowed inside?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, smoking (both cigarettes and e-cigarettes) is allowed throughout the venue. Underage guests are not permitted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What other games do you offer besides darts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In addition to DARTSLIVE2 and PHOENIX for darts, we have beer pong, karaoke, playing cards, UNO and other board games."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it possible to book a private party?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we warmly welcome private bookings for various occasions such as year-end and New Year parties, farewell and welcome parties, and wedding after-parties! Our venue can accommodate private events for up to about 50 people. For details on pricing and plans, please feel free to contact us."
+      }
+    }
+  ]
+}
   </script>
   <!-- ✅ Breadcrumb structured data -->
   <script type="application/ld+json">
