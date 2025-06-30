@@ -39,12 +39,20 @@
 </script>
 
   <!-- JSON-LD Structured Data -->
-   <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "BASE1 新宿店",
   "url": "https://prodarts.github.io/shop_base_shinjyuku/",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "歌舞伎町1丁目6-3 東海苑ビル9F",
+    "addressLocality": "新宿区",
+    "addressRegion": "東京都",
+    "postalCode": "160-0021",
+    "addressCountry": "JP"
+  },
   "hasMenu": {
     "@type": "Menu",
     "name": "フード＆ドリンクメニュー",
@@ -52,6 +60,7 @@
   }
 }
 </script>
+
 
   <script type="application/ld+json">
   {
