@@ -395,4 +395,30 @@ h2 {
   color: #ff0066;
   text-decoration: underline;
 }
+.sister-shops ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 1rem;
+}
+.sister-shops ul li {
+  background: rgba(10, 20, 60, 0.8);
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.6rem;
+  box-shadow: inset 0 0 10px #ff0066;
+  border-left: 3px solid #00ffcc;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.sister-shops ul li a {
+  color: #00ffcc;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.sister-shops ul li a:hover {
+  color: #ff0066;
+  text-decoration: underline;
+}
 
